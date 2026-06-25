@@ -1,24 +1,70 @@
-# Medical Image Analyzer
+# GenAI Streamlit Suite
 
-An intelligent medical imaging diagnostic assistant powered by Google's Gemini AI and Streamlit.
+Two Streamlit apps powered by Google Gemini in one repository:
 
-## Overview
-This application analyzes clinical images (X-rays, MRIs, CT scans, ultrasounds) and provides comprehensive medical evaluations including:
-- Detailed imaging analysis with anatomical findings
-- Differential diagnosis with clinical prioritization
-- Recommendations for next diagnostic steps
-- Professional medical-grade reporting
+- **MedScan**: upload a medical image and get a structured clinical-style analysis.
+- **GenAI SQL Helper**: turn plain English into a SQL query with an explanation.
+
+## Repository Name
+
+Recommended GitHub repo name:
+
+- `genai-streamlit-suite`
+
+Other good options:
+
+- `gemini-streamlit-apps`
+- `ai-assistant-suite`
+- `genai-multi-apps`
+
+## Project Structure
+
+```text
+.
+├── medscan_app.py
+└── sqlquery_app.py
+```
 
 ## Features
--  Multi-format image support (JPG, PNG, DICOM)
--  AI-powered diagnostic assistance using Gemini 2.5 Flash
--  Real-time analysis with streaming responses
--  Clinical disclaimer for patient safety
--  Easy web-based interface with Streamlit
--  Secure API key management
 
-## Usage
-Upload a medical image and (optionally) patient history for AI-assisted diagnostic analysis.
+### MedScan
 
-##  Disclaimer
-This tool is for educational and clinical support purposes only. All AI analyses must be verified and validated by qualified medical professionals before making any clinical decisions.
+- Upload PNG, JPG, JPEG, or WEBP images.
+- Add optional patient history.
+- Uses Gemini to generate a structured analysis.
+
+### SQL Helper
+
+- Enter a request in plain English.
+- Generates a SQL query.
+- Returns a short explanation and example usage.
+
+## Requirements
+
+- Python 3.10 or newer
+- Streamlit
+- `google-generativeai`
+- `Pillow` for the MedScan app
+
+## Setup
+
+1. Create and activate a virtual environment.
+2. Install the dependencies:
+
+```bash
+pip install streamlit google-generativeai pillow
+```
+
+## Run the Apps
+
+### MedScan
+
+```bash
+streamlit run medscan_app.py
+```
+
+### SQL Helper
+
+```bash
+streamlit run sqlquery_app.py
+```
