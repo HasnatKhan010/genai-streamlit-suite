@@ -1,30 +1,16 @@
-# Computer Vision & Generative AI Projects
+# GenAI Streamlit Suite
 
-A collection of beginner to intermediate AI, Machine Learning, Computer Vision, and Generative AI projects built while learning practical AI development. Each project focuses on implementing real-world concepts using Python, Deep Learning, Streamlit, and modern LLM frameworks.
+A collection of Generative AI applications built while learning Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), and AI-powered workflows using Streamlit.
 
-## Projects
-
-### 1. MNIST CNN Classifier
-
-A Convolutional Neural Network built with TensorFlow/Keras to classify handwritten digits (0 and 1). This project demonstrates image preprocessing, CNN architecture, training, evaluation, and prediction.
-
-**Tech Stack**
-
-* Python
-* TensorFlow / Keras
-* NumPy
-* Matplotlib
+Each project focuses on solving practical problems with modern AI technologies and will continue to grow as I learn more advanced concepts.
 
 ---
 
-### 2. GenAI Streamlit Suite
+## Current Projects
 
-A collection of Streamlit applications powered by Large Language Models.
+### 1. Medical Image Analysis Assistant
 
-Included applications:
-
-* Medical Image Analysis Assistant
-* Natural Language to SQL Query Generator
+An AI-powered Streamlit application that analyzes medical images using Google's Gemini multimodal model and provides detailed insights.
 
 **Tech Stack**
 
@@ -35,18 +21,30 @@ Included applications:
 
 ---
 
+### 2. Natural Language to SQL Generator
+
+A Streamlit application that converts natural language questions into SQL queries using Google's Gemini model.
+
+**Tech Stack**
+
+* Python
+* Streamlit
+* Google Gemini API
+
+---
+
 ### 3. RAG Document Assistant
 
-A Retrieval-Augmented Generation (RAG) application that allows users to upload PDF documents and ask questions about their content. The application retrieves relevant document chunks using FAISS vector search and generates grounded answers using the Groq Llama 3 model.
+A Retrieval-Augmented Generation (RAG) application that allows users to upload PDF documents and ask questions about their content.
 
 **Features**
 
-* Upload multiple PDF documents
-* Automatic document chunking
-* Semantic search using FAISS
+* Upload PDF documents
+* Document chunking
+* FAISS vector database
 * HuggingFace embeddings
 * Context-aware question answering
-* Clean Streamlit interface
+* Interactive Streamlit interface
 
 **Tech Stack**
 
@@ -63,18 +61,40 @@ A Retrieval-Augmented Generation (RAG) application that allows users to upload P
 ## Technologies Used
 
 * Python
-* TensorFlow
-* Keras
 * Streamlit
+* Google Gemini API
 * LangChain
 * FAISS
-* HuggingFace
+* HuggingFace Embeddings
 * Groq
-* Google Gemini
-* NumPy
-* Matplotlib
+* PyPDF2
 * Pillow
+
+---
+
+## Learning Roadmap
+
+Future projects planned for this repository:
+
+* AI Chatbot
+* Multi-PDF Chat Assistant
+* AI Resume Analyzer
+* Document Summarizer
+* YouTube Video Summarizer
+* Website Chatbot (RAG)
+* Image Caption Generator
+* AI Research Assistant
+* Code Review Assistant
+* Meeting Notes & Minutes Generator
+* Email Generator
+* AI Translator
+* AI Quiz Generator
+* AI Content Generator
+* Voice Chat Assistant (Speech-to-Text + LLM)
+* Agentic AI Applications (LangGraph / CrewAI)
+
+---
 
 ## Repository Goal
 
-This repository documents my learning journey in Artificial Intelligence, Machine Learning, Computer Vision, and Generative AI by building practical, hands-on projects. More projects will be added as I continue learning and exploring modern AI technologies.
+This repository documents my journey of learning Generative AI by building practical Streamlit applications using modern LLMs, RAG pipelines, and AI frameworks. New projects will be added regularly as I continue exploring advanced Generative AI concepts.
