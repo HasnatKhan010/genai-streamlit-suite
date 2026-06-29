@@ -1,16 +1,14 @@
 # GenAI Streamlit Suite
 
-A collection of Generative AI applications built while learning Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), and AI-powered workflows using Streamlit.
-
-Each project focuses on solving practical problems with modern AI technologies and will continue to grow as I learn more advanced concepts.
+A collection of Generative AI applications built with Streamlit and modern Large Language Models (LLMs). This repository documents my hands-on learning journey in building practical AI applications using Google's Gemini models, Retrieval-Augmented Generation (RAG), and other modern GenAI frameworks.
 
 ---
 
-## Current Projects
+## Projects
 
 ### 1. Medical Image Analysis Assistant
 
-An AI-powered Streamlit application that analyzes medical images using Google's Gemini multimodal model and provides detailed insights.
+An AI-powered application that analyzes medical images using Google's Gemini multimodal model and provides detailed insights.
 
 **Tech Stack**
 
@@ -44,7 +42,6 @@ A Retrieval-Augmented Generation (RAG) application that allows users to upload P
 * FAISS vector database
 * HuggingFace embeddings
 * Context-aware question answering
-* Interactive Streamlit interface
 
 **Tech Stack**
 
@@ -55,6 +52,30 @@ A Retrieval-Augmented Generation (RAG) application that allows users to upload P
 * HuggingFace Embeddings
 * Groq (Llama 3)
 * PyPDF2
+
+---
+
+### 4. AI Chatbot
+
+A conversational AI chatbot built with Streamlit and Google's Gemini API. The application supports real-time streaming responses, conversation history, configurable model settings, and an interactive chat interface.
+
+**Features**
+
+* Real-time AI conversation
+* Streaming responses
+* Chat history
+* Adjustable temperature
+* Model selection
+* Download chat history
+* Clear conversation
+* Markdown support
+
+**Tech Stack**
+
+* Python
+* Streamlit
+* Google Gemini API
+* python-dotenv
 
 ---
 
@@ -69,32 +90,31 @@ A Retrieval-Augmented Generation (RAG) application that allows users to upload P
 * Groq
 * PyPDF2
 * Pillow
+* python-dotenv
 
 ---
 
-## Learning Roadmap
+## Future Projects
 
-Future projects planned for this repository:
-
-* AI Chatbot
-* Multi-PDF Chat Assistant
+* Multi-PDF RAG Chat
 * AI Resume Analyzer
 * Document Summarizer
 * YouTube Video Summarizer
 * Website Chatbot (RAG)
-* Image Caption Generator
 * AI Research Assistant
-* Code Review Assistant
-* Meeting Notes & Minutes Generator
+* Image Caption Generator
+* AI Code Review Assistant
 * Email Generator
-* AI Translator
 * AI Quiz Generator
 * AI Content Generator
-* Voice Chat Assistant (Speech-to-Text + LLM)
-* Agentic AI Applications (LangGraph / CrewAI)
+* Voice Chat Assistant
+* AI Meeting Notes Generator
+* LangGraph Agentic AI Applications
+* CrewAI Multi-Agent Applications
+* MCP (Model Context Protocol) Projects
 
 ---
 
 ## Repository Goal
 
-This repository documents my journey of learning Generative AI by building practical Streamlit applications using modern LLMs, RAG pipelines, and AI frameworks. New projects will be added regularly as I continue exploring advanced Generative AI concepts.
+This repository showcases my practical learning journey in Generative AI by building real-world applications using Streamlit, Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), and modern AI frameworks. New projects will be added as I continue exploring advanced GenAI concepts and production-ready AI applications.
